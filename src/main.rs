@@ -35,6 +35,6 @@ fn main() -> Result<(), Error> {
     let s = str::from_utf8(&final_buffer).unwrap();
 
     print!("{}", s);
-    
+
     Ok(())
 }
